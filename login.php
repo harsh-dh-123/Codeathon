@@ -17,7 +17,9 @@ function validate()
 </script>
 </head>
 <body>
-
+<form>
+<input type = text name ="input1">	
+</form>
 <form action="disp.php" method="get" name="form" onsubmit="return validate()">
 Name: <input type="text" name="name"><br>
 Age: <input type="text" name="age"><br>
