@@ -33,6 +33,18 @@ if (mysqli_query($conn, $sql)) {
     echo "Error creating table: " . mysqli_error($conn);
 }
 
+if (mysqli_query($conn2, $sql)) {
+    echo "Table Donar created successfully";
+} else {
+    echo "Error creating table: the maintanence table " . mysqli_error($conn);
+}
+
+if (mysqli_query($conn3, $sql)) {
+    echo "Table Accepter created successfully";
+} else {
+    echo "Error creating table: the acceptor " . mysqli_error($conn);
+}
+
 
 $sql = "INSERT INTO donar ()
         VALUES ('".$_GET["name"]."','".$_GET["age"]."','".$_GET["address"]."','".$_GET["email"]."','".$_GET["mob"]."','".$_GET["BG"]."','".$_GET["sex"]."')";
