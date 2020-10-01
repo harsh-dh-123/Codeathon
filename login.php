@@ -22,6 +22,8 @@ function validate()
 Name: <input type="text" name="name"><br>
 Age: <input type="text" name="age"><br>
 Address: <input type="text" name="address"><br>
+	country <input type="text" name="country"><br/>
+	postal code <input type="text" name="postal-code"><br/>
 E-mail: <input type="text" name="email"><br>
 Mobile: <input type="text" name="mob"><br>
 Blood Group: <input type="text" name="BG"><br>
